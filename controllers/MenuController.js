@@ -15,6 +15,7 @@ module.exports = class MenuController {
       }
     ];
     this.contacts = [];
+    // this.reminder = "Learning is a life-long pursuit";
   }
 
   main(){
@@ -59,6 +60,11 @@ module.exports = class MenuController {
 
   getContactCount(){
     return this.contacts.length;
+  }
+
+  remindMe(){
+    // return this.reminder;
+    return "Learning is a life-long pursuit";
   }
 
   exit(){

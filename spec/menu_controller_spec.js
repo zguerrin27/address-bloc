@@ -18,4 +18,13 @@ describe("MenuController", () => {
     });
 
   });
+
+  describe("#remindMe()", () => {
+
+    it("should call the reminder", () => {
+      expect(this.menu.remindMe()).toBe("Learning is a life-long pursuit");
+    });
+
+  });
+
 });
