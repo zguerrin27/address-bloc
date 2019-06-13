@@ -6,7 +6,6 @@ describe("MenuController", () => {
     this.menu = new MenuController();
   });
 
-  
 
   describe("#remindMe()", () => {
 
